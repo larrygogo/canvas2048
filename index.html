@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="fonts/clear-sans.css">
+</head>
+
+<body>
+    <script type="module">
+        import {Game} from './game/main.js'
+        let game = new Game(450, 450, 500, 500)
+        game.start()
+        window.addEventListener('keydown', function (e) {
+            let keyCode = e.keyCode
+            if (keyCode === 37) { // 左
+                game.d = 0
+            } else if (keyCode === 38) { // 上
+                
+            } else if (keyCode === 39) { // 右
+                
+            } else if (keyCode === 40) { // 下
+                
+            }
+        })
+    </script>
+    <script>
+        // requestAnimationFrame(drawPane);
+        
+        
+    </script>
+</body>
+
+</html>
