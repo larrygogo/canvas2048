@@ -35,7 +35,7 @@ export default class Box {
      * @param {*} r 圆角半径
      * @param {*} color 填充颜色
      */
-    static drawArcRect(ctx, x, y, w, h, r, color) {
+    drawArcRect(ctx, x, y, w, h, r, color) {
         ctx.save()
         ctx.fillStyle = color
         ctx.beginPath()
